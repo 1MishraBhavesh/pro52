@@ -1,0 +1,95 @@
+
+ .menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    
+ }
+ a:link{
+     color:white;
+
+ }
+ a:visited{  
+     color: #ffffff;
+ };
+ 
+    
+ .origami{
+     position: relative;
+ }
+
+.origamis p{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50% -50%);
+    opacity: 0;
+}
+.origami:hover p{
+    opacity: 1;
+    transform: scale(1.2);
+
+}
+
+.origamis:hover img{
+   opacity: 0.50;
+   position: relative;
+}
+.origamis:hover{
+    transform: scale(1.2);
+}
+.bodyimg {
+    position: relative;
+}
+.bodyimg p{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50% -50%);
+    opacity: 0;
+}
+.bodyimg:hover p{
+    opacity: 1;
+    transform: scale(1.2);
+
+}
+
+
+body{
+    margin: 0px;
+  background-color: #f7f2f2;  
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 10px;
+  
+}
+.origamis {
+
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    width: 190px;
+    font-family: fantasy;
+   
+   
+    
+
+}
+
+img {border: 5px solid white; border-radius: 40px;}
+
+ 
+   
+    
